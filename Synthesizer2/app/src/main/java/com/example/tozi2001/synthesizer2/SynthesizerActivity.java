@@ -27,6 +27,8 @@ public class SynthesizerActivity extends AppCompatActivity {
         button2 = (Button)findViewById(R.id.button2);
         button3 = (Button)findViewById(R.id.button3);
         mpE = MediaPlayer.create(this, R.raw.scalee);
+        mpF = MediaPlayer.create(this, R.raw.scalef);
+        mpMC = MediaPlayer.create(this, R.raw.classic_hurt_1_);
 
 
     }
